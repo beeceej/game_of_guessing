@@ -1,0 +1,9 @@
+(library
+  (name beeceej_game_of_guessing)
+  (libraries lib)
+  (modules beeceej_game_of_guessing))
+
+(executable
+  (name main)
+  (libraries beeceej_game_of_guessing)
+  (modules main))
